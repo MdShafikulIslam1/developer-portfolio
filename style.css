@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+h1{
+    font-size:50px;
+}
+.shofik{
+    color:orange;
+}
+section {
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left:5%;
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    background-image:linear-gradient(orange,gray ,tomato);
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
