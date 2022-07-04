@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color:orange;
 }
-.banner {
+.flexible-container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -39,4 +39,24 @@ h1{
 background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right center;
+}
+.exp-sec{
+width:80%;
+margin:0 5% 0 5%;
+box-shadow: 5px 10px 10px 5px tomato;
+padding-left:2%;
+}
+.exprience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer{
+    border-left: 8px solid green;
+}
+#baby-web-developer{
+    border-left: 8px solid blue;
+}
+footer p{
+    text-align: center;
 }
