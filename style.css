@@ -1,16 +1,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-margin: 0;
+    font-family: 'Poppins', sans-serif;
+   margin: 0;
 }
 h1{
     font-size:50px;
 }
-.shofik{
+.orange-color{
     color:orange;
 }
-section {
+.banner {
     display: flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,12 @@ section {
 .top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    padding-right: 5%;
+}
+.dream-section{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right center;
 }
